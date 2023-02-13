@@ -9,7 +9,6 @@ class Solution:
             square_sum += int(i) ** 2
 
         if num in self.unique_nums:
-            print(self.unique_nums)
             self.unique_nums = []
             return False
 
